@@ -36,9 +36,8 @@ The '**/p1_dff0_extract**' folder consists of codes for calculating Δ*F/F* from
   `'dff0_'+str(-stim_before_2[0])+'-'+str(-stim_before_2[0]+sw_len_2[0])+'_down'+str(time_downsample_2[0])+'_C*'`
   *For example, the ΔF/F trace starting from odor delivery with a length of 20 frames without downsampling is named 'dff0_0-20_down1_C\*.npy'*
 
-  The analysis codes below may require distinct Δ*F/F*, as specified in the file loading section of each code.
-<br/>
-* Extract Δ_F/F_ traces of a segment preceding the first stimulus for each indicator (for the analysis of the resting state):
+  The analysis codes below may require distinct Δ*F/F*, as specified in the file loading section of each code.<br/>
+- Extract Δ*F/F* traces of a segment preceding the first stimulus for each indicator (for the analysis of the resting state):
 
   `python p1_dff0_extract/c2_extract_start_pre.py `
 
@@ -102,21 +101,20 @@ The '**/p4_network_analysis**' folder consists of codes for network analysis and
   <br/>
 * Brain-region-level analysis
 <br/>
-  * '**/04_Brain-region-level_analysis/Brain-region-level_data_analysis_RS.ipynb**': Generate average matrices and networks of 10 or 20 flies in the resting state (RS)
+  - '**/04_Brain-region-level_analysis/Brain-region-level_data_analysis_RS.ipynb**': Generate average matrices and networks of 10 or 20 flies in the resting state (RS)
 
   * '**/04_Brain-region-level_analysis/Brain-region-level_data_analysis_Stim.ipynb**': Generate average matrices and networks of 10 or 20 flies during odor stimulation (Stim)
 
-  * '**/04_Brain-region-level_analysis/Brain-region-level_results_graphing.ipynb**': Reproduce the results and figures of brain-region-level analysis
-  <br/>
-* Voxel-level analysis
+  * '**/04_Brain-region-level_analysis/Brain-region-level_results_graphing.ipynb**': Reproduce the results and figures of brain-region-level analysis<br/>
+- Voxel-level analysis
 <br/>
-  * '**/05_Single_region_analysis/Single_region_ACh_results_graphing.ipynb**': Reproduce ACh analysis results and figures at the voxel level within brain regions
+  - '**/05_Single_region_analysis/Single_region_ACh_results_graphing.ipynb**': Reproduce ACh analysis results and figures at the voxel level within brain regions
 
-  * '**/05_Single_region_analysis/Single_region_5HT_results_graphing.ipynb**': Reproduce 5-HT analysis results and figures at the voxel level within brain regions
+  - '**/05_Single_region_analysis/Single_region_5HT_results_graphing.ipynb**': Reproduce 5-HT analysis results and figures at the voxel level within brain regions
   <br/>
-* Temporal analysis
+- Temporal analysis
 <br/>
-  * '**/06_Temporal_analysis/Temporal_data_analysis.ipynb**': Generate average matrices and networks of 10 or 20 flies in different time periods
+  - '**/06_Temporal_analysis/Temporal_data_analysis.ipynb**': Generate average matrices and networks of 10 or 20 flies in different time periods
 
   * '**/06_Temporal_analysis/Temporal_results_graphing.ipynb**': Reproduce the results and figures of temporal analysis
 
