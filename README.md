@@ -123,6 +123,7 @@ The '**/p4_network_analysis**' folder consists of codes for network analysis and
   * '**/06_Temporal_analysis/Temporal_data_analysis.ipynb**': Generate average matrices and networks of 10 or 20 flies in different time periods
 
   * '**/06_Temporal_analysis/Temporal_results_graphing.ipynb**': Reproduce the results and figures of temporal analysis
+<br/>
 
 
 ## References
