@@ -49,7 +49,9 @@ The '**/p2_basic_analysis**' folder consists of codes for basic analysis of the 
 
 The '**/p3_representation_analysis**' folder consists of codes for odor identity representation analysis and reproducing the related figures in the paper.
 
-* The main codes for odor identity representation analysis of each fly<br/>
+* The main codes for odor identity representation analysis of each fly 
+  <br/>
+
   The '**/1-main-processing**' folder:
   * 'p1-voxel-level-whole-brain.ipynb': Voxel-level multiple-brain-region odor identity representation
   * 'p2-voxel-level-each-region.ipynb': Voxel-level odor identity representation in each brain region
@@ -75,16 +77,21 @@ The '**/p3_representation_analysis**' folder consists of codes for odor identity
   * '9_\*.ipynb' to '10_\*.ipynb': Compare the manifolds of each channel and odor identity
   <br/>
 
-* Motion analysis<br/>
+* Motion analysis
+  <br/>
+
   The '**/5-video-analysis**' folder: 
   * The '**/video_processing**' folder: MATLAB codes for motion extraction from the videos of the fly abdomens
   * '0-video-analysis-single-fly.ipynb': Motion analysis for each fly
   * '1_\*.ipynb' to '6_\*.ipynb': Codes for figures in Fig. S6,  the figure indices shown in the file names
   <br/>
 
-* Other analyses<br/>
+* Other analyses
+  <br/>
+
   The '**/6-others**' folder: 
   * Some other figure plotting codes with the figure indices shown in the file names
+  <br/>
 
 ### 4. Network Analysis
 
@@ -124,6 +131,7 @@ The '**/p4_network_analysis**' folder consists of codes for network analysis and
   * '**/06_Temporal_analysis/Temporal_data_analysis.ipynb**': Generate average matrices and networks of 10 or 20 flies in different time periods
 
   * '**/06_Temporal_analysis/Temporal_results_graphing.ipynb**': Reproduce the results and figures of temporal analysis
+  <br/>
 
 
 ## References
