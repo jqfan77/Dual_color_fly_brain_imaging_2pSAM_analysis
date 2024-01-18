@@ -6,7 +6,7 @@ This repository contains the pipeline codes for the long-term multiple-brain-reg
 
 Please install the dependencies using: 
 
-​$~~~$`pip install -r environment.txt`
+​`pip install -r environment.txt`
 
 ## Datasets
 
@@ -38,7 +38,7 @@ The '**/p1_dff0_extract**' folder consists of codes for calculating Δ*F/F* from
 
   The analysis codes below may require distinct Δ*F/F*, as specified in the file loading section of each code.
 <br/>
-* Extract Δ*F/F* traces of a segment preceding the first stimulus for each indicator (for the analysis of the resting state):
+* Extract Δ_F/F_ traces of a segment preceding the first stimulus for each indicator (for the analysis of the resting state):
 
   `python p1_dff0_extract/c2_extract_start_pre.py `
 
