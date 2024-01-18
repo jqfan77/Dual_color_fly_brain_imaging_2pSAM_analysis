@@ -100,24 +100,26 @@ The '**/p4_network_analysis**' folder consists of codes for network analysis and
   * The '**/03_Generate_5HT_matrices_and_networks**' folder: Generate functional connectivity matrices and networks for 5-HT both at the regional and neuronal level
   <br/>
 * Brain-region-level analysis
-<br/>
+  <br/>
 
   * '**/04_Brain-region-level_analysis/Brain-region-level_data_analysis_RS.ipynb**': Generate average matrices and networks of 10 or 20 flies in the resting state (RS)
 
   * '**/04_Brain-region-level_analysis/Brain-region-level_data_analysis_Stim.ipynb**': Generate average matrices and networks of 10 or 20 flies during odor stimulation (Stim)
 
   * '**/04_Brain-region-level_analysis/Brain-region-level_results_graphing.ipynb**': Reproduce the results and figures of brain-region-level analysis<br/>
+  
 - Voxel-level analysis
-<br/>
+  <br/>
 
   - '**/05_Single_region_analysis/Single_region_ACh_results_graphing.ipynb**': Reproduce ACh analysis results and figures at the voxel level within brain regions
 
   - '**/05_Single_region_analysis/Single_region_5HT_results_graphing.ipynb**': Reproduce 5-HT analysis results and figures at the voxel level within brain regions
-  <br/>
+    <br/>
+
 - Temporal analysis
 <br/>
 
-  - '**/06_Temporal_analysis/Temporal_data_analysis.ipynb**': Generate average matrices and networks of 10 or 20 flies in different time periods
+  * '**/06_Temporal_analysis/Temporal_data_analysis.ipynb**': Generate average matrices and networks of 10 or 20 flies in different time periods
 
   * '**/06_Temporal_analysis/Temporal_results_graphing.ipynb**': Reproduce the results and figures of temporal analysis
 
