@@ -1,0 +1,121 @@
+%% Ach
+
+%% 0417-fly2
+% fly
+H_fly = 80;
+W_fly = 110;
+UP_fly = 380;
+LEFT_fly = 630;
+% light
+H_light = 200;
+W_light = 200;
+UP_light = 1;
+LEFT_light = 700;
+
+%% 0420-fly2  
+% fly
+H_fly = 80;
+W_fly = 110;
+UP_fly = 390;
+LEFT_fly = 570;
+% light
+H_light = 200;
+W_light = 200;
+UP_light = 1;
+LEFT_light = 700;
+
+%% 0420-fly3  
+% fly
+H_fly = 90;
+W_fly = 100;
+UP_fly = 380;
+LEFT_fly = 570;
+% light
+H_light = 200;
+W_light = 200;
+UP_light = 1;
+LEFT_light = 700;
+
+%% 0428-fly1  
+% fly
+H_fly = 100;
+W_fly = 120;
+UP_fly = 300;
+LEFT_fly = 580;
+% light
+H_light = 200;
+W_light = 200;
+UP_light = 1;
+LEFT_light = 950;
+
+%% 0507-FLY1
+% fly
+H_fly = 90;
+W_fly = 100;
+UP_fly = 270;
+LEFT_fly = 630;
+% light
+H_light = 120;
+W_light = 200;
+UP_light = 600;
+LEFT_light = 800;
+
+%% 0510-fly1
+% fly
+H_fly = 90;
+W_fly = 100;
+UP_fly = 280;
+LEFT_fly = 630;
+% light
+H_light = 120;
+W_light = 200;
+UP_light = 600;
+LEFT_light = 1000;
+
+%% 0510-fly2
+% fly
+H_fly = 90;
+W_fly = 100;
+UP_fly = 270;
+LEFT_fly = 650;
+% light
+H_light = 200;
+W_light = 200;
+UP_light = 1;
+LEFT_light = 950;
+
+%% 0511-fly2
+% fly
+H_fly = 90;
+W_fly = 100;
+UP_fly = 210;
+LEFT_fly = 700;
+% light
+H_light = 200;
+W_light = 200;
+UP_light = 1;
+LEFT_light = 950;
+
+%% 0511-fly3
+% fly
+H_fly = 90;
+W_fly = 110;
+UP_fly = 210;
+LEFT_fly = 680;
+% light
+H_light = 200;
+W_light = 200;
+UP_light = 1;
+LEFT_light = 950;
+
+%% 0515-fly1
+% fly
+H_fly = 90;
+W_fly = 110;
+UP_fly = 230;
+LEFT_fly = 700;
+% light
+H_light = 200;
+W_light = 200;
+UP_light = 1;
+LEFT_light = 950;
