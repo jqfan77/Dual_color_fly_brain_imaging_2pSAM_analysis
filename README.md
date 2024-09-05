@@ -62,7 +62,8 @@ The '**/p3_representation_analysis**' folder consists of codes for odor identity
 * Statistics and analyses of the results of multiple flies
   <br/>
 
-  The '**/2-p1-to-p3-threshold**' folder: Set the thresholds of the PCA results for p1-p3
+  The '**/2-p1-to-p3-threshold**' folder:
+  * Set the thresholds of the PCA results for p1-p3
   The '**/3-classification_compare**' folder:  
   * 1. Compare the odor identity decoding accuracies of different situations, the figure indices shown in the file names
   * 2. '8_1_manifold_plot_single.ipynb' and '8_2_manifold_plot_batch.ipynb': Plot the manifolds of a single file and all files of the selected flies, respectively
