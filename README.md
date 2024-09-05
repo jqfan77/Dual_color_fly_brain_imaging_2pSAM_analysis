@@ -1,6 +1,6 @@
 # Getting Started With the Pipeline
 
-This repository contains the pipeline codes for the long-term multiple-brain-region imaging of neuronal and neuromodulatory activities in *Drosophila* brain by the two-photon synthetic aperture microscopy (2pSAM). This pipeline includes Δ*F/F* extraction and data analysis, organized by **Python**.
+This repository contains the pipeline codes for the long-term multiple-brain-region imaging of neuronal and neurochemical dynamics in *Drosophila* brain by the two-photon synthetic aperture microscopy (2pSAM). This pipeline includes Δ*F/F* extraction and data analysis, organized by **Python**.
 
 ## Installation
 
@@ -11,7 +11,7 @@ Please install the dependencies using:
 ## Datasets
 
 * The demo data is currently available on [OneDrive](https://mailstsinghuaeducn-my.sharepoint.com/:f:/g/personal/fjq19_mails_tsinghua_edu_cn/EtZeYbE6qfFDpNpT_uv4Mi8BiAGpYAnsJEAz9RsjXmvZdw?e=asuQ30). When using the demo data to test the codes, please change the name of the file folders in the codes according to the storage location of the data.
-* The entire dataset with a total size of 5 TB, which includes the extracted neuronal and neuromodulatory traces within the 3D volumes of 10 flies co-labeled by jGCaMP7f (an indicator for calcium) and UAS-rGRAB_ACh-0.5 (an indicator for acetylcholine (ACh)), and 10 flies co-labeled by jGCaMP7f and rGRAB_HTR2C-0.5 (an indicator for serotonin (5-HT)), will be open-sourced after publication. 
+* The entire dataset with a total size of 5 TB, which includes the extracted neuronal and neurochemical traces within the 3D volumes of 10 flies co-labeled by jGCaMP7f (an indicator for calcium) and UAS-rGRAB_ACh-0.5 (an indicator for acetylcholine (ACh)), and 10 flies co-labeled by jGCaMP7f and rGRAB_HTR2C-0.5 (an indicator for serotonin (5-HT)), will be open-sourced after publication. 
 
 ## Usage
 
@@ -149,4 +149,4 @@ The '**/p4_network_analysis**' folder consists of codes for network analysis and
 
 If you use the resources in this repository, please cite the following paper:
 
-Prominent involvement of acetylcholine in shaping stable olfactory representation across the *Drosophila* brain.
+Prominent involvement of acetylcholine dynamics in stable olfactory representation across the *Drosophila* brain.
