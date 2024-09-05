@@ -43,7 +43,7 @@ The '**/p1_dff0_extract**' folder consists of codes for calculating Δ*F/F* from
 
 ### 2. Basic Analysis
 
-The '**/p2_basic_analysis**' folder consists of codes for basic analysis of the olfactory responses and reproducing the related figures in the paper, including trace plots, maps of several measurements, and calculation of the dynamic properties of the responses. The figure indices are shown in the file names.
+The '**/p2_basic_analysis**' folder consists of codes for basic analysis of the olfactory responses and reproducing the related figures in the paper, including trace plots, maps of several measurements, ensemble analysis, and calculation of the dynamic properties of the responses. The figure indices are shown in the file names.
 
 ### 3. Representation Analysis
 
@@ -62,19 +62,19 @@ The '**/p3_representation_analysis**' folder consists of codes for odor identity
 * Statistics and analyses of the results of multiple flies
   <br/>
 
-  The '**/2-supfigure4_p1_to_p3_thresh**' folder: Set the thresholds of the PCA results for p1-p3
+  The '**/2-p1-to-p3-threshold**' folder: Set the thresholds of the PCA results for p1-p3
   The '**/3-classification_compare**' folder:  
-  * '1_\*.ipynb' to '7_2_\*.ipynb': Compare the odor identity decoding accuracies of different situations, the figure indices shown in the file names
-  * '8_1_manifold_plot_single.ipynb' and '8_2_manifold_plot_batch.ipynb': Plot the manifolds of a single file and all files of the selected flies, respectively
+  * 1. Compare the odor identity decoding accuracies of different situations, the figure indices shown in the file names
+  * 2. '8_1_manifold_plot_single.ipynb' and '8_2_manifold_plot_batch.ipynb': Plot the manifolds of a single file and all files of the selected flies, respectively
   <br/>
 
 * Low-dimensional manifold analysis
   <br/>
 
   The '**/4-manifold-statistics-final**' folder:  
-  * '1_cv_merge.ipynb': Align and combine the manifolds of each fold for the following analyses
-  * '2_\*.ipynb' to '8_\*.ipynb': Analyze the temporal changes of the manifolds
-  * '9_\*.ipynb' to '10_\*.ipynb': Compare the manifolds of each channel and odor identity
+  * 1. '0_1_cv_merge.ipynb': Align and combine the manifolds of each fold for the following analyses
+  * 2. Analyze the temporal changes of the manifolds
+  * 3. Compare the manifolds of each channel and odor identity
   <br/>
 
 * Motion analysis
@@ -89,8 +89,8 @@ The '**/p3_representation_analysis**' folder consists of codes for odor identity
 * Other analyses
   <br/>
 
-  The '**/6-others**' folder: 
-  * Some other figure plotting codes with the figure indices shown in the file names
+  The '**/6-check-denoise**' folder: 
+  * Compare odor representation analysis with and without denoising
   <br/>
 
 ### 4. Network Analysis
