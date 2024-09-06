@@ -98,40 +98,76 @@ The '**/p3_representation_analysis**' folder consists of codes for odor identity
 
 The '**/p4_network_analysis**' folder consists of codes for network analysis and reproducing the related figures in the paper.
 
-* Generate functional connectivity matrices and networks
+* The '**/01-data_pre-processing**' folder 
   <br/>
 
-  * The '**/01_Generate_G7f_matrices_and_networks**' folder: Generate functional connectivity matrices and networks for G7f both at the regional and neuronal level
+  * '**/generate_stimu_records_XX_for_XX_flies.py**': Process the response traces during odor stimulation (Stim) to produce data material for subsequent use
 
-  * The '**/02_Generate_ACh_matrices_and_networks**' folder: Generate functional connectivity matrices and networks for ACh both at the regional and neuronal level
-
-  * The '**/03_Generate_5HT_matrices_and_networks**' folder: Generate functional connectivity matrices and networks for 5-HT both at the regional and neuronal level
+  * '**/generate_RS_records_XX_for_XX_flies.py**': Process the traces during the resting state (RS) to produce data material for subsequent use level
   <br/>
 
-* Brain-region-level analysis
+* The '**/02-region_level_network_analysis**' folder
   <br/>
 
-  * '**/04_Brain-region-level_analysis/Brain-region-level_data_analysis_RS.ipynb**': Generate average matrices and networks of 10 or 20 flies in the resting state (RS)
+  * '**/generate_between_region_network_XX_for_XX_flies_RS.py**': Generate average matrices and networks of 10 or 20 flies in the resting state (RS)
 
-  * '**/04_Brain-region-level_analysis/Brain-region-level_data_analysis_Stim.ipynb**': Generate average matrices and networks of 10 or 20 flies during odor stimulation (Stim)
+  * '**/generate_between_region_network_XX_for_XX_flies.py**': Generate average matrices and networks of 10 or 20 flies during odor stimulation (Stim)
 
-  * '**/04_Brain-region-level_analysis/Brain-region-level_results_graphing.ipynb**': Reproduce the results and figures of brain-region-level analysis
+  * '**/Brain-region-level_results_graphing.ipynb**': Reproduce the results and figures of brain-region-level analysis
   <br/>
   
-- Voxel-level analysis
+* The '**/03-voxel_level_network_analysis**' folder 
   <br/>
 
-  - '**/05_Single_region_analysis/Single_region_ACh_results_graphing.ipynb**': Reproduce ACh analysis results and figures at the voxel level within brain regions
+  * '**/generate_within_region_network_XX_for_XX_flies.py**': Generate connectivity matrices and networks within regions of 10 or 20 flies during odor stimulation
 
-  - '**/05_Single_region_analysis/Single_region_5HT_results_graphing.ipynb**': Reproduce 5-HT analysis results and figures at the voxel level within brain regions
+  * '**/sort_within_region_network_5ht_flies.py**': Calculate the difference matrix between calcium and neurotransmitters 
+    
+  * '**/network_3d_graphing_rev.ipynb**': Generate the 3D network figures
+
+  * '**/Single_region_ACh_results_graphing.ipynb**': Reproduce ACh analysis results and figures at the voxel level within brain regions
+
+  * '**/Single_region_5HT_results_graphing.ipynb**': Reproduce 5-HT analysis results and figures at the voxel level within brain regions
   <br/>
 
-- Temporal analysis
+* The '**/04-temporal_analysis**' folder 
   <br/>
 
-  * '**/06_Temporal_analysis/Temporal_data_analysis.ipynb**': Generate average matrices and networks of 10 or 20 flies in different time periods
+  * '**/Temporal_data_analysis_XX_network_all_flies.py**': Generate average matrices and networks of 10 or 20 flies in different time periods
+ 
+  * '**/Temporal_data_analysis_XX_network_single_fly.py**': Generate the matrices and networks of each fly in different time periods
 
-  * '**/06_Temporal_analysis/Temporal_results_graphing.ipynb**': Reproduce the results and figures of temporal analysis
+  * '**/Temporal_results_graphing.ipynb**': Reproduce the results and figures of temporal analysis
+  <br/>
+
+* The '**/05-motion_analysis**' folder 
+  <br/>
+
+  * '**/motion_calc_corr_delay_XX_for_XX_flies.py**': Calculate the correlation between motion and neural dynamics
+
+  * '**/motion_analysis.ipynb**': Reproduce the results and figures of motion analysis
+  <br/>
+
+* The '**/06-ensembles_analysis**' folder 
+  <br/>
+
+  * '**/ensemble_analysis_XX_for_XX_flies_neuron_sampling_3odors.py**': Process the traces of neuron ensembles that are selected by tuning results
+ 
+  * '**/ensemble_analysis_XX_for_XX_flies_network_tuning.py**': Generate the matrices and networks of neuron ensembles
+
+  * '**/ensemble_analysis.ipynb**': Reproduce the results and figures of ensemble analysis
+  <br/>
+
+* The '**/07-noise_analysis**' folder 
+  <br/>
+
+  * '**/generate_stimu_records_XX_raw_denoise.py**': Process the response traces of the denoised or raw data to produce data material for subsequent use
+ 
+  * '**/generate_between_region_network_XX_raw_denoise.py**': Generate the brain-region-level functional matrices and networks of the denoised or raw data
+ 
+  * '**/generate_within_region_network_XX_raw_denoise.py**': Generate the voxel-region-level functional matrices and networks of the denoised or raw data
+
+  * '**/noise_analysis.ipynb**': Reproduce the results and figures of noise analysis
   <br/>
 
 
