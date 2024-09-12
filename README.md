@@ -53,13 +53,13 @@ The '**/p3_representation_analysis**' folder consists of codes for odor identity
   <br/>
 
   The '**/1-main-processing**' folder:
-  * 'p1-voxel-level-whole-brain-updated.ipynb': Voxel-level multiple-brain-region odor identity representation
-  * 'p1-voxel-level-whole-brain-updated-ensemble-weight.ipynb': Voxel-level multiple-brain-region odor identity representation and ensemble weight map generation
-  * 'p2-voxel-level-each-region.ipynb': Voxel-level odor identity representation in each brain region
-  * 'p2-voxel-level-each-region-MB-gal4.py': Voxel-level odor identity representation in each brain region for MB-Gal4
-  * 'p3-region-level-whole-brain-updated.ipynb':Region-level multiple-brain-region odor identity representation
-  * 'p4-accuracy-map.ipynb': Generate maps of decoding accuracy across the FOV
-  * 'p4-accuracy-map-MB-gal4.py': Generate maps of decoding accuracy across the FOV for MB-Gal4
+  * '**/p1-voxel-level-whole-brain-updated.ipynb**': Voxel-level multiple-brain-region odor identity representation
+  * '**/p1-voxel-level-whole-brain-updated-ensemble-weight.ipynb**': Voxel-level multiple-brain-region odor identity representation and ensemble weight map generation
+  * '**/p2-voxel-level-each-region.ipynb**': Voxel-level odor identity representation in each brain region
+  * '**/p2-voxel-level-each-region-MB-gal4.py**': Voxel-level odor identity representation in each brain region for MB-Gal4
+  * '**/p3-region-level-whole-brain-updated.ipynb**':Region-level multiple-brain-region odor identity representation
+  * '**/p4-accuracy-map.ipynb**': Generate maps of decoding accuracy across the FOV
+  * '**/p4-accuracy-map-MB-gal4.py**': Generate maps of decoding accuracy across the FOV for MB-Gal4
   <br/>
 
 * Statistics and analyses of the results of multiple flies
@@ -69,14 +69,14 @@ The '**/p3_representation_analysis**' folder consists of codes for odor identity
   <br/>
   The '**/3-classification_compare**' folder:  
   * Compare the odor identity decoding accuracies of different situations, the figure indices shown in the file names
-  * 'manifold_plot_single.ipynb' and 'manifold_plot_batch.ipynb': Plot the manifolds of a single file and all files of the selected flies, respectively
+  * '**/manifold_plot_single.ipynb**' and '**/manifold_plot_batch.ipynb**': Plot the manifolds of a single file and all files of the selected flies, respectively
   <br/>
 
 * Low-dimensional manifold analysis
   <br/>
 
   The '**/4-manifold-statistics-final**' folder:  
-  * '0_1_cv_merge.ipynb': Align and combine the manifolds of each fold for the following analyses
+  * '**/0_1_cv_merge.ipynb**': Align and combine the manifolds of each fold for the following analyses
   * Analyze the temporal changes of the manifolds
   * Compare the manifolds of each channel and odor identity
   <br/>
@@ -86,8 +86,8 @@ The '**/p3_representation_analysis**' folder consists of codes for odor identity
 
   The '**/5-video-analysis**' folder: 
   * The '**/video_processing**' folder: MATLAB codes for motion extraction from the videos of the fly abdomens
-  * '0-video-analysis-single-fly.ipynb': Motion analysis for each fly
-  * '1_\*.ipynb' to '6_\*.ipynb': Codes for figures in Fig. S6,  the figure indices shown in the file names
+  * '**/0-video-analysis-single-fly.ipynb**': Motion analysis for each fly
+  * '**/1_\*.ipynb**' to '**/6_\*.ipynb**': Codes for figures in Fig. S6,  the figure indices shown in the file names
   <br/>
 
 * Other analyses
