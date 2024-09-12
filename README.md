@@ -65,17 +65,17 @@ The '**/p3_representation_analysis**' folder consists of codes for odor identity
   The '**/2-p1-to-p3-threshold**' folder: Set the thresholds of the PCA results for p1-p3
   <br/>
   The '**/3-classification_compare**' folder:  
-  * 1. Compare the odor identity decoding accuracies of different situations, the figure indices shown in the file names
-  * 2. 'manifold_plot_single.ipynb' and 'manifold_plot_batch.ipynb': Plot the manifolds of a single file and all files of the selected flies, respectively
+  * Compare the odor identity decoding accuracies of different situations, the figure indices shown in the file names
+  * 'manifold_plot_single.ipynb' and 'manifold_plot_batch.ipynb': Plot the manifolds of a single file and all files of the selected flies, respectively
   <br/>
 
 * Low-dimensional manifold analysis
   <br/>
 
   The '**/4-manifold-statistics-final**' folder:  
-  * 1. '0_1_cv_merge.ipynb': Align and combine the manifolds of each fold for the following analyses
-  * 2. Analyze the temporal changes of the manifolds
-  * 3. Compare the manifolds of each channel and odor identity
+  * '0_1_cv_merge.ipynb': Align and combine the manifolds of each fold for the following analyses
+  * Analyze the temporal changes of the manifolds
+  * Compare the manifolds of each channel and odor identity
   <br/>
 
 * Motion analysis
