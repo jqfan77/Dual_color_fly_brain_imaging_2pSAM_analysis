@@ -53,10 +53,13 @@ The '**/p3_representation_analysis**' folder consists of codes for odor identity
   <br/>
 
   The '**/1-main-processing**' folder:
-  * 'p1-voxel-level-whole-brain.ipynb': Voxel-level multiple-brain-region odor identity representation
+  * 'p1-voxel-level-whole-brain-updated.ipynb': Voxel-level multiple-brain-region odor identity representation
+  * 'p1-voxel-level-whole-brain-updated-ensemble-weight.ipynb': Voxel-level multiple-brain-region odor identity representation and ensemble weight map generation
   * 'p2-voxel-level-each-region.ipynb': Voxel-level odor identity representation in each brain region
-  * 'p3-region-level-whole-brain.ipynb':Region-level multiple-brain-region odor identity representation
+  * 'p2-voxel-level-each-region-MB-gal4.py': Voxel-level odor identity representation in each brain region for MB-Gal4
+  * 'p3-region-level-whole-brain-updated.ipynb':Region-level multiple-brain-region odor identity representation
   * 'p4-accuracy-map.ipynb': Generate maps of decoding accuracy across the FOV
+  * 'p4-accuracy-map-MB-gal4.py': Generate maps of decoding accuracy across the FOV for MB-Gal4
   <br/>
 
 * Statistics and analyses of the results of multiple flies
